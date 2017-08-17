@@ -1,0 +1,78 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#mainDiv{
+    font-size: 30px;
+    margin-top: 8%;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 60%;
+    text-align: center;
+    background-color: rgba(128, 128, 128 ,0.5);
+    
+}
+
+#uInput{
+    height: 45px;
+    width: 500px;
+    border-radius: 60px;
+    border: 1px solid ;
+    font-size: 25px;
+    padding-left: 20px;
+    background-color: oldlace;
+    
+}
+#uInput:focus{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+li {
+    list-style-type: circle;
+    padding-left: 20px; 
+    margin-left: 250px;
+    text-align: left;
+    margin-top: 10px;
+}
+.dlt{
+    margin-right: 190px;
+    float: right;
+    padding: 4px;
+    font-size: 20px;
+    background-color: darkgrey;
+    border-radius: 60px;
+    opacity: 0.7;
+}
+.dlt:hover {
+    opacity: 1;    
+    cursor: pointer;
+}
+#sub:hover {
+    background: darkcyan;
+    cursor: pointer;
+}
+#dltAll:hover {
+    background: darkcyan;
+    cursor: pointer;
+}
+#sub{
+    height: 45px;
+    width: 100px;
+    border-radius: 60px;
+    background-color: lightblue;    
+}
+#dltAll{
+    height: 35px;
+    width: 150px;
+    border-radius: 60px;
+    color: red;
+    background-color: lightblue; 
+    
+}
